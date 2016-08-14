@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Web", "src\app\HelloCI.Web\HelloCI.Web.csproj", "{0D6A7468-59D6-4EA5-AA3C-9643C74F3680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Tests", "src\tests\HelloCI.Tests\HelloCI.Tests.csproj", "{E029F5ED-27EF-41AD-B94C-F46BDD48CD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Core", "src\app\HelloCI.Core\HelloCI.Core.csproj", "{681CC3DF-61A9-4B4B-8882-2A6EA9A73EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6A7468-59D6-4EA5-AA3C-9643C74F3680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6A7468-59D6-4EA5-AA3C-9643C74F3680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6A7468-59D6-4EA5-AA3C-9643C74F3680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6A7468-59D6-4EA5-AA3C-9643C74F3680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E029F5ED-27EF-41AD-B94C-F46BDD48CD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E029F5ED-27EF-41AD-B94C-F46BDD48CD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E029F5ED-27EF-41AD-B94C-F46BDD48CD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E029F5ED-27EF-41AD-B94C-F46BDD48CD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681CC3DF-61A9-4B4B-8882-2A6EA9A73EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681CC3DF-61A9-4B4B-8882-2A6EA9A73EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681CC3DF-61A9-4B4B-8882-2A6EA9A73EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681CC3DF-61A9-4B4B-8882-2A6EA9A73EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
